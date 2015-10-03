@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 body{
 	color: #333;
-	font-family: Arial, "Monaco", sans-serif;
+	font-family: "lobster","Monaco"; sans-serif;
 	font-size: 16px;
 }
+
 
 #container{
 	margin: 0 auto;
@@ -20,6 +22,7 @@ body{
 }
 
 #container header p{
+	font-family: "Arial","Monaco"; sans-serif;
 	font-size: 2em;
 	margin: 1em;
 }
@@ -42,7 +45,7 @@ body{
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 650px){
 	#container header{
 		background: #DDD;
 		border-bottom: 1px solid; 
@@ -64,3 +67,56 @@ body{
 	}
 
 }
+
+
+@media screen and (max-width: 360px){
+	#container header{
+		background: #DDD;
+		border-bottom: 1px solid; 
+		padding: 8px;
+		text-align: center;
+	}
+
+	#container header h1{
+		font-size: 4em;
+		margin: 1px;
+		color: green;
+
+	}
+
+#container header p{
+	color: blue;
+		font-size: 2em;
+		margin: 1em;
+	}
+
+}
+
+
+@media screen and (max-width: 320px){
+	#container header{
+		background: #DDD;
+		border-bottom: 1px solid; 
+		padding: 8px;
+		text-align: center;
+	}
+
+	#container header h1{
+		font-size: 4em;
+		margin: 1px;
+		color: yellow;
+
+	}
+
+#container header p{
+	color: blue;
+		font-size: 2em;
+		margin: 1em;
+	}
+
+}
+
+
+
+
+
